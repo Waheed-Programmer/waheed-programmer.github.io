@@ -269,4 +269,9 @@ $(function(){
         }, 400);
     });
 
+    var currentYear = new Date().getFullYear();
+
+    // Set the current year in the HTML element
+    document.getElementById('currentYear').textContent = "© " + currentYear + " Waheed Programer";
+
 });
